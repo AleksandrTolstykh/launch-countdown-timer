@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: hsl(234, 17%, 12%);
+  background-image: url("./assets/bg-stars.svg"), url("./assets/pattern-hills.svg");
+  background-repeat: no-repeat;
+  background-position: center, bottom;
+  background-size: auto, contain;
+  margin: 0;
+  font-family: "Red Hat Text";
+  font-weight: 700;
+  overflow-y: hidden;
+}

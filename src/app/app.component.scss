@@ -1,0 +1,32 @@
+h1 {
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 5px;
+  margin: 5%;
+  text-align: center;
+}
+
+mat-grid-list {
+  margin: auto;
+  width: 60%;
+  @media screen and (max-width: 768px) {
+    width: 80%;
+  }
+  @media screen and (max-width: 1024px) {
+    width: 90%;
+  }
+}
+
+div {
+  text-align: center;
+  height: 100%;
+}
+
+svg {
+  margin: 250px 10px 10px 10px;
+  &:hover {
+    cursor: pointer;
+    path {
+      fill: hsl(345, 95%, 68%);
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.wrapper {
+  text-align: center;
+  height: 220px;
+  width: 150px;
+  @media screen and (max-width: 768px) {
+    height: 120px;
+    width: 100px;
+  }
+}
+
+.card {
+  background: linear-gradient(0deg, hsl(236, 21%, 26%) 50%, hsl(236, 21%, 26%, 0.5) 50%);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  height: 150px;
+  width: 150px;
+  p {
+    background: -webkit-linear-gradient(hsl(345, 95%, 68%, 0.5) 50%, hsl(345, 95%, 68%) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 60px;
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.text {
+  color: hsl(237, 18%, 59%);
+  letter-spacing: 10px;
+  @media screen and (max-width: 768px) {
+    letter-spacing: 3px;
+  }
+}
+
+.circle-left {
+  position: relative;
+  top: 90px;
+  right: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: hsl(234, 17%, 12%);
+  @media screen and (max-width: 768px) {
+    top: 65px;
+  }
+}
+
+.circle-right {
+  position: relative;
+  top: 80px;
+  left: 145px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: hsl(234, 17%, 12%);
+  @media screen and (max-width: 768px) {
+    top: 55px;
+    left: 95px;
+  }
+}
